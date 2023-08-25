@@ -1,0 +1,14 @@
+{
+  "name": "tailwind-practice",
+  "version": "1.0.0",
+  "description": "practice",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:css": "npx tailwindcss -i ./css/styles.css -o ./dist/output.css --watch "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
